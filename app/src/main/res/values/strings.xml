@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Número Diary</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="tab_colors">
+        <item>#F63D2B</item>
+        <item>#F63D2B</item>
+        <item>#F63D2B</item>
+    </string-array>
+
+    <string name="new_field">New Field %1$d</string>
+    <string name="three_dot_menu">⋮</string>
+    <string name="edit_input_type">Edit Input Type</string>
+    <string name="delete_row">Delete Row</string>
+    <string name="edit_field_name">Edit Field Name</string>
+    <string name="add_new_record">Add New Record</string>
+    <string name="new_record">New Record</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="new_field_name">New Field Name</string>
+    <string name="edit_unit">Edit Unit</string>
+    <string name="row_deleted">Row deleted.</string>
+    <string name="undo">Undo</string>
+    <string name="demo_title">Title will look like this.</string>
+    <string name="record_title">Title</string>
+    <string name="demo_timestamp">1 Jan 1900, 12:00</string>
+    <string name="demo_placeholder">Item will look like this.</string>
+    <string name="delete">Delete</string>
+    <string name="blank_title_hint">Title cannot be blank.</string>
+    <string name="clear">Clear</string>
+    <string name="save_template">Save as Template</string>
+    <string name="record_remarks">Remarks</string>
+    <string name="template_saved">Template saved.</string>
+    <string name="add_new_record_with_template">New Template Record</string>
+    <string name="enter_template_name">Enter template name</string>
+    <string name="no_saved_template">No saved template.</string>
+    <string name="delete_template">Delete Template</string>
+    <string name="template_deleted">Template(s) deleted.</string>
+    <string name="warning">Warning</string>
+    <string name="delete_record_warning">Do you want to delete this record?</string>
+    <string name="yes">Yes</string>
+    <string name="delete_template_warning">Do you want to delete the selected template(s)?</string>
+    <string name="template_exists">Template already exists.</string>
+    <string name="discard_changes_warning">Discard changes?</string>
+    <string name="select_input_type">Select Input Type</string>
+    <string name="select_template">Select Template</string>
+    <string name="add">Add New</string>
+    <string name="edit_template">Edit Template</string>
+    <string name="record_deleted">Record deleted.</string>
+    <string name="select_field_name">Select Field Name</string>
+    <string name="select_field_unit">Select Field Unit</string>
+    <string name="new_field_unit">New Field Unit</string>
+    <string name="manage_unit_summary">Add, edit, or delete saved unit(s).</string>
+    <string name="manage_template_summary">Add, edit, or delete saved template(s).</string>
+    <string name="editUnit">editUnit</string>
+    <string name="editTemplate">editTemplate</string>
+    <string name="editFieldName">editFieldName</string>
+    <string-array name="add_record_option">
+        <item>Blank record</item>
+        <item>Record with saved template</item>
+    </string-array>
+    <string-array name="field_type_option">
+        <item>Text</item>
+        <item>Number</item>
+        <item>Decimal</item>
+        <item>Time</item>
+        <item>Date</item>
+        <item>Date &amp; Time</item>
+    </string-array>
+    <string-array name="column_name_option">
+        <item>Title</item>
+        <item>Remarks</item>
+        <item>Modified Date</item>
+        <item>Created Date</item>
+    </string-array>
+    <string-array name="all_column_names_option">
+        <item>Title</item>
+        <item>Remarks</item>
+        <item>Modified Date</item>
+        <item>Created Date</item>
+        <item>Pinned</item>
+        <item>Field Name</item>
+        <item>Field Unit</item>
+    </string-array>
+    <string-array name="sequence_option">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="condition_operator_option">
+        <item>Is</item>
+        <item>Are</item>
+        <item>Between</item>
+        <item>Newer than</item>
+        <item>Older than</item>
+        <item>Larger than (\u003e)</item>
+        <item>Smaller than (\u003c)</item>
+        <item>Larger or equal to (≥)</item>
+        <item>Smaller or equal to (≤)</item>
+        <item>Contains</item>
+    </string-array>
+    <string name="settings">Settings</string>
+    <string name="delete_unit">Delete Unit</string>
+    <string name="no_saved_unit">No saved unit.</string>
+    <string name="item_deleted">Item(s) deleted.</string>
+    <string name="item_saved">Item saved.</string>
+    <string name="data_exists">Data already exists</string>
+    <string name="manage_unit">Manage Units</string>
+    <string name="manage_templates">Manage Templates</string>
+    <string name="new_template">New Template</string>
+    <string name="delete_item_warning">Do you want to delete the selected item(s)?</string>
+    <string name="edit">Edit</string>
+    <string name="add_new_unit">Add New Unit</string>
+    <string name="manage_field_name_summary">Add, edit, or delete saved field name(s).</string>
+    <string name="manage_field_name">Manage Field Names</string>
+    <string name="delete_field_name">Delete Field Name</string>
+    <string name="add_new_field_name">Add New Field Name</string>
+    <string name="record_saved">Record saved.</string>
+    <string name="template_name_exists">Template name already exists.</string>
+    <string name="search_record_hint">Search &amp; Sort</string>
+    <string name="search">Search</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_by_field">Sort By Field</string>
+    <string name="sort_by_sequence">Sort Sequence</string>
+    <string name="record_pinned">Record pinned.</string>
+    <string name="unpinned">Record unpinned.</string>
+    <string name="pin_record">Pin Record</string>
+    <string name="unpin_record">Unpin Record</string>
+    <string name="last_modified_on">Last modified: %1$s</string>
+    <string name="just_now">Just now</string>
+    <string name="a_minute_ago">A minute ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="an_hour_ago">An hour ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="add_new_folder">Add New Folder</string>
+    <string name="folder_name">Folder Name</string>
+    <string-array name="add_folder_option">
+        <item>Blank folder</item>
+        <item>Folder with specified condition</item>
+    </string-array>
+    <string name="folder_condition_chip_text">%1$s %2$s %3$s</string>
+    <string name="select_condition_operator">Select Condition Operator</string>
+    <string name="select_field">Select Field</string>
+    <string name="nothing_to_show">Nothing to show.</string>
+    <string name="enter_values">Enter Values</string>
+    <string name="no_value_is_entered">No value is entered.</string>
+    <string name="select_date_time">Select Date Time</string>
+    <string name="invert">Invert</string>
+    <string name="add_condition">Add Condition</string>
+    <string name="new_folder">New Folder</string>
+    <string name="item_count">%1$s item(s)</string>
+    <string name="delete_folder">Delete Folder</string>
+    <string name="condition_selection_not_finished">Condition selection is not finished.</string>
+    <string name="blank">[Blank]</string>
+    <string name="condition_field_1">1. %1$s</string>
+    <string name="condition_field_2">2. %1$s</string>
+    <string name="condition_field_3">3. %1$s</string>
+    <string name="maximum_char_exceeded">Maximum character exceeded.</string>
+    <string name="inputs_required">%1$d inputs are required.</string>
+    <string name="no_input_entered">No input is entered.</string>
+    <string name="delete_folder_warning">Do you want to delete this folder?</string>
+    <string name="allow_multiple_values">Multiple values are allowed.</string>
+
+</resources>

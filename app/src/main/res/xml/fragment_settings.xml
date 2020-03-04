@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Preference
+        android:key="@string/editFieldName"
+        android:summary="@string/manage_field_name_summary"
+        app:iconSpaceReserved="false"
+        app:title="@string/manage_field_name" />
+
+    <Preference
+        android:key="@string/editUnit"
+        android:summary="@string/manage_unit_summary"
+        app:iconSpaceReserved="false"
+        app:title="@string/manage_unit" />
+
+    <Preference
+        android:key="@string/editTemplate"
+        android:summary="@string/manage_template_summary"
+        app:iconSpaceReserved="false"
+        app:title="@string/manage_templates" />
+
+</PreferenceScreen>

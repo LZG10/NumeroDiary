@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingStart="16dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="5dp">
+
+    <!--<com.woxthebox.draglistview.swipe.ListSwipeItem xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftViewId="@+id/RecordField_TxtInput"
+        app:rightViewId="@+id/MoreOptions_Btn"
+        app:swipeViewId="@+id/item_layout">-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:helperTextEnabled="true"
+        android:id="@+id/RecordField_TxtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerVertical="true"
+        app:endIconMode="clear_text">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/new_field"
+            android:lineSpacingExtra="10dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<com.google.android.material.chip.Chip
+            android:id="@+id/ClearInput_Chip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            app:chipBackgroundColor="@android:color/transparent"
+            app:chipEndPadding="0dp"
+            app:chipMinTouchTargetSize="0dp"
+            app:chipStartPadding="0dp"
+            app:closeIconEnabled="true"
+            app:closeIconEndPadding="0dp"
+            app:closeIconStartPadding="0dp"
+            app:textEndPadding="0dp"
+            app:textStartPadding="0dp" />-->
+
+        <CheckBox
+            android:id="@+id/RecordField_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:minWidth="0dp"
+            android:minHeight="0dp" />
+
+        <TextView
+            android:id="@+id/MoreOptions_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="12dp"
+            android:text="@string/three_dot_menu"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+    </LinearLayout>
+</RelativeLayout>

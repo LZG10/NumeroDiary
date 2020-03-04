@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save_record_action"
+        android:icon="@mipmap/baseline_save_white_24"
+        android:title="@string/save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete_record_action"
+        android:icon="@mipmap/baseline_delete_white_24"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/pin_record_action"
+        android:title="@string/pin_record"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/save_template_action"
+        android:title="@string/save_template"
+        app:showAsAction="never" />
+
+</menu>

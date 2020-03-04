@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/RecordTitle_TxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/Pin_ImgView"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/demo_title" />
+
+        <ImageButton
+            android:id="@+id/Pin_ImgView"
+            style="?attr/selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/unpinned" />
+
+        <TextView
+            android:id="@+id/Placeholder1_TxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RecordTitle_TxtView"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@id/Pin_ImgView"
+            android:maxLines="3"
+            tools:text="@string/demo_placeholder" />
+
+        <TextView
+            android:id="@+id/Placeholder2_TxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Placeholder1_TxtView"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/Pin_ImgView"
+            tools:text="@string/demo_timestamp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

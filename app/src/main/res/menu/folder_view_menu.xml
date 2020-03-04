@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_condition_action"
+        android:icon="@mipmap/baseline_filter_list_white_24"
+        android:title="@string/add_condition"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete_folder_action"
+        android:icon="@mipmap/baseline_delete_white_24"
+        android:title="@string/delete_folder"
+        app:showAsAction="ifRoom" />
+
+</menu>
